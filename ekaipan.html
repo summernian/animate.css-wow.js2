@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>服务报价_网络摇号</title>
+	<link rel="stylesheet" href="http://drs.xafc.com:9012/statics/work/banner/css/base.css" />
+	<link rel="stylesheet" href="http://drs.xafc.com:9012/statics/work/banner/css/style.css" />
+	<link rel="stylesheet" href="http://drs.xafc.com:9012/statics/work/lib/swiper/swiper.min.css" />
+	<link rel="stylesheet" type="text/css" href="http://drs.xafc.com:9012/statics/work/lib/animate/animate.css"/>
+	<link rel="stylesheet" href="http://drs.xafc.com:9012/statics/work/banner/css/e_open_style.css" />
+	<script type="text/javascript" src="http://drs.xafc.com:9012/statics/public/js/jquery-3.3.1.min.js"></script>
+	<style type="text/css">
+		body {
+			/*background:#fff url(//img3.xafc.com/up/backimg/xafc1010.png) repeat left top*/
+			font-family: "微软雅黑";
+		}
+	</style>
+</head>
+<body>
+<button id="toTop"></button>
+<header id="head">
+	<div class="border_bottom">
+		<div class="content clearFix">
+			<!--logo-->
+			<h1 id="logo_wrap">
+				<a href=" http://www.xafc.com/ " id="logo"></a>
+				<a href="#" id="logo_text"></a>
+			</h1>
+			<!--城市选择-->
+        	<div class="city">
+        		<span class="menu-hd">
+		            <a href="#" class="partbd">合肥</a>
+		            <ul>
+						<li><a href="/index/index/serviceprice/nav/price_weixin/position/weixin/city/hf">合肥</a></li>
+						<li><a href="/index/index/serviceprice/nav/price_weixin/position/weixin/city/la">六安</a></li>
+						<li><a href="/index/index/serviceprice/nav/price_weixin/position/weixin/city/hn">淮南</a></li>
+						<li><a href="/index/index/serviceprice/nav/price_weixin/position/weixin/city/tl">铜陵</a></li>
+						<li><a href="/index/index/serviceprice/nav/price_weixin/position/weixin/city/chz">滁州</a></li>
+						<li><a href="/index/index/serviceprice/nav/price_weixin/position/weixin/city/wh">芜湖</a></li>
+						<li><a href="/index/index/serviceprice/nav/price_weixin/position/weixin/city/mas">马鞍山</a></li>
+						<li><a href="/index/index/serviceprice/nav/price_weixin/position/weixin/city/sz">宿州</a></li>
+						<li><a href="/index/index/serviceprice/nav/price_weixin/position/weixin/city/hb">淮北</a></li>
+						<li><a href="/index/index/serviceprice/nav/price_weixin/position/weixin/city/xc">宣城</a></li>
+						<li><a href="/index/index/serviceprice/nav/price_weixin/position/weixin/city/bb">蚌埠</a></li>
+						<li><a href="/index/index/serviceprice/nav/price_weixin/position/weixin/city/cz">池州</a></li>
+						<li><a href="/index/index/serviceprice/nav/price_weixin/position/weixin/city/aq">安庆</a></li>
+						<li><a href="/index/index/serviceprice/nav/price_weixin/position/weixin/city/bz">亳州</a></li>
+						<li><a href="/index/index/serviceprice/nav/price_weixin/position/weixin/city/fy">阜阳</a></li>
+						<li><a href="/index/index/serviceprice/nav/price_weixin/position/weixin/city/hs">黄山</a></li>
+						<li><a href="/index/index/serviceprice/nav/price_weixin/position/weixin/city/ds">砀山</a></li>
+						<li><a href="/index/index/serviceprice/nav/price_weixin/position/weixin/city/lx">利辛</a></li>
+						<li><a href="/index/index/serviceprice/nav/price_weixin/position/weixin/city/ch">巢湖</a></li>
+						<li><a href="/index/index/serviceprice/nav/price_weixin/position/weixin/city/lj">庐江</a></li>
+						<li><a href="/index/index/serviceprice/nav/price_weixin/position/weixin/city/xz">徐州</a></li>
+                    </ul>
+		        </span>
+		   	</div>
+			<!--导航-->
+			<nav id="nav_top">
+				<a href="javascript:;" class="">
+					广&nbsp;&nbsp;告
+					<i class="nav_icon"></i>
+				</a>
+				<a href="javascript:;" id="nav_id" class="active">
+					营销工具
+					<i class="nav_icon"></i>
+				</a>
+				<a href="#" class="">
+					敬请期待
+					<i class="nav_icon"></i>
+				</a>
+				<a href="#" class="">
+					敬请期待
+					<i class="nav_icon"></i>
+				</a>
+				<a href="#" class="">
+					敬请期待
+					<i class="nav_icon"></i>
+				</a>
+			</nav>
+		</div>
+	</div>
+	<div class="border2_bottom">
+		<div class="content clearFix">
+			<nav id="nav_bottom">
+				<div style="display: none;">
+					<a {if $position == 'www_index'}href="javascript:;" class="active"{else}href="/index/index/serviceprice/nav/price_index/position/www_index/city/{$city}" class=""{/if}>网站首页</a>
+					<a {if $position == 'house_index'}href="javascript:;" class="active"{else}href="/index/index/serviceprice/nav/price_houseindex/position/house_index/city/{$city}" class=""{/if}>新房首页</a>
+					<a {if $position == 'house_detail'}href="javascript:;" class="active"{else}href="/index/index/serviceprice/nav/price_housedetail/position/house_detail/city/{$city}" class=""{/if}>新房楼盘页</a>
+					<a {if $position == 'news_index'}href="javascript:;" class="active"{else}href="/index/index/serviceprice/nav/price_newsindex/position/news_index/city/{$city}" class=""{/if}>资讯首页</a>
+					<a {if $position == 'news_detail'}href="javascript:;" class="active"{else}href="/index/index/serviceprice/nav/price_newsdetail/position/news_detail/city/{$city}" class=""{/if}>资讯内页</a>
+					<a {if $position == 'mobile'}href="javascript:;" class="active"{else}href="/index/index/serviceprice/nav/price_mobile/position/mobile/city/{$city}" class=""{/if}>移动广告</a>
+					<a {if $position == 'weixin'}href="javascript:;" class="active"{else}href="/index/index/serviceprice/nav/price_weixin/position/weixin/city/{$city}" class=""{/if}>微信广告</a>
+				</div>
+				<div style="display: block;">
+					<a href="javascript:;" class="">线上开盘</a>
+					<a href="#" class="active">网络摇号</a>
+					<a href="#" class="">线上车位</a>
+					<a href="javascript:;" class="">e销通</a>
+				</div>
+			</nav>
+		</div>
+	</div>
+</header>
+<main id="main">
+	<!--
+		动画效果：
+		data-wow-duration : 动画持续时间，时间越久动画越慢 例如 1s 
+		data-wow-delay ： 延迟 时间越久动画越迟出现 例如 1s 
+		data-wow-offset ：距浏览器底部多少距离开始动画 默认 0
+		data-wow-iteration ：动画重复次数 设为 infinite 时会持续不停重复 也可以设置整数
+	-->
+	<div class="bigbanner">
+		<div class="banner_show">
+			<span class="img_wrap">
+				<img src="http://drs.xafc.com:9012/statics/work/banner/img/e_open/banner.jpg"  width="1920" />
+			</span>
+		</div>
+	</div>
+	<div class="content clearFix">
+		<ul class="clearFix">
+			<li class="advantage wow bounceIn" data-wow-delay="0.1s">
+				<div class="advantage_bg"></div>
+				<h2>
+					<span>规则高度可定制</span>
+					<span>满足一切摇号需求</span>
+				</h2>
+			</li>
+			<li class="advantage wow bounceIn" data-wow-delay="0.2s">
+				<div class="advantage_bg"></div>
+				<h2>
+					<span>万人摇号毫无压力</span>
+				</h2>
+			</li>
+			<li class="advantage wow bounceIn" data-wow-delay="0.3s">
+				<div class="advantage_bg"></div>
+				<h2>
+					<span>高效的房源配置</span>
+					<span>省时、省心、省力</span>
+				</h2>
+			</li>
+			<li class="advantage wow bounceIn" data-wow-delay="0.4s">
+				<div class="advantage_bg"></div>
+				<h2>
+					<span>百分百成功摇号</span>
+					<span>现场气氛一路到高潮</span>
+				</h2>
+			</li>
+		</ul>
+	</div>
+	<div class="bigbanner" style="height: 705px;">
+		<div class="banner_show" style="height: 705px;">
+			<span class="img_wrap">
+				<img src="http://drs.xafc.com:9012/statics/work/banner/img/e_open/banner1.jpg"  width="1920" />
+			</span>
+		</div>
+		<div class="container">
+			<div class="head">
+				<img class="wow zoomIn" src="http://drs.xafc.com:9012/statics/work/banner/img/e_open/icon-text.png"/>
+				<h2 class="wow fadeInDown" data-wow-offset="50">网络摇号</h2>
+				<p class="wow fadeInUp">四大优势为您保驾护航</p>
+			</div>
+			<div class="explain_wrap clearFix">
+				<div class="explain">
+					<div class="explain_img wow bounceInDown" data-wow-offset="200"></div>
+					<i class="e_line wow rotateIn" data-wow-offset="75"></i>
+					<i class="e_icon wow fadeInUp" data-wow-offset="40"></i>
+					<p>
+						<span class="wow fadeInUp" data-wow-delay="0.1s" data-wow-offset="40">完善的系统架构体系</span>
+						<span class="wow fadeInUp" data-wow-delay="0.2s" data-wow-offset="25">高效的系统运行速度</span>
+						<span class="wow fadeInUp" data-wow-delay="0.3s" data-wow-offset="0">10年多的实战和打磨，更值得信赖</span>
+					</p>
+				</div>
+				<div class="explain">
+					<p>
+						<span class="wow fadeInDown" data-wow-delay="0.4s" data-wow-offset="200">大屏同步显示，实况直播</span>
+						<span class="wow fadeInDown" data-wow-delay="0.5s" data-wow-offset="175">百分百公正，深的购房者人心</span>
+						<span class="wow fadeInDown" data-wow-delay="0.6s" data-wow-offset="150">国家级软件著作权，保证公平、公正、公开的要求</span>
+					</p>
+					<i class="e_icon wow fadeInDown" data-wow-delay="0.5s" data-wow-offset="100"></i>
+					<i class="e_line wow rotateIn" data-wow-delay="0.5s" data-wow-offset="100"></i>
+					<div class="explain_img wow bounceInUp" data-wow-delay="0.4s" data-wow-offset="100"></div>
+				</div>
+				<div class="explain">
+					<div class="explain_img wow bounceInDown" data-wow-delay="0.7s" data-wow-offset="200"></div>
+					<i class="e_line wow rotateIn" data-wow-delay="0.8s" data-wow-offset="75"></i>
+					<i class="e_icon wow fadeInUp" data-wow-delay="0.8s" data-wow-offset="40"></i>
+					<p>
+						<span class="wow fadeInUp" data-wow-delay="0.7s" data-wow-offset="40">系统稳定，客户信息隐私安全</span>
+						<span class="wow fadeInUp" data-wow-delay="0.8s" data-wow-offset="25">购房者有序入场，静等摇号，人员安全有保障</span>
+						<span class="wow fadeInUp" data-wow-delay="0.9s" data-wow-offset="0">百场现场摇号经验，无一失败，硬实力才会让人信任</span>
+					</p>
+				</div>
+				<div class="explain">
+					<p>
+						<span class="wow fadeInDown" data-wow-delay="1s" data-wow-offset="200">现场技术支持，让你安心，放心</span>
+						<span class="wow fadeInDown" data-wow-delay="1.1s" data-wow-offset="175">预案充足，确保摇号顺利进行</span>
+						<span class="wow fadeInDown" data-wow-delay="1.2s" data-wow-offset="150">数据信息现场一键打印、公示等</span>
+						<span class="wow fadeInDown" data-wow-delay="1.3s" data-wow-offset="125">您想要的我们都有</span>
+					</p>
+					<i class="e_icon wow fadeInDown" data-wow-delay="1.1s" data-wow-offset="100"></i>
+					<i class="e_line wow rotateIn" data-wow-delay="1.1s" data-wow-offset="100"></i>
+					<div class="explain_img wow bounceInUp" data-wow-delay="1s" data-wow-offset="100"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="content clearFix">
+		<div class="case">
+			<div class="head">
+				<img class="wow zoomIn" src="http://drs.xafc.com:9012/statics/work/banner/img/e_open/icon-text2.png"/>
+				<h2 class="wow fadeInDown">客户案例</h2>
+			</div>
+			<div class="case_wrap wow zoomIn" data-wow-offset="100">
+				<div class="swiper-container">
+			    	<div class="swiper-wrapper">
+			      		<div class="swiper-slide">
+			      			<img src="http://drs.xafc.com:9012/statics/work/banner/img/e_open/case_img1.jpg" alt="" />
+			      			<h2>宝湾国际</h2>
+			      		</div>
+			      		<div class="swiper-slide">
+			      			<img src="http://drs.xafc.com:9012/statics/work/banner/img/e_open/case_img2.jpg" alt="" />
+			      			<h2>铜陵恒大绿洲</h2>
+			      		</div>
+			      		<div class="swiper-slide">
+			      			<img src="http://drs.xafc.com:9012/statics/work/banner/img/e_open/case_img.jpg" alt="" />
+			      			<h2>北雁湖金茂湾</h2>
+			      		</div>
+			    	</div>
+		    		<!-- Add Arrows -->
+		    		<div class="swiper-button-next"></div>
+		    		<div class="swiper-button-prev"></div>
+			  	</div>
+			</div>
+		</div>
+	</div>
+	<div class="bigbanner" style="height: 540px;">
+		<div class="banner_show" style="height: 540px;">
+			<span class="img_wrap">
+				<img src="http://drs.xafc.com:9012/statics/work/banner/img/e_open/banner2.jpg"  width="1920" />
+			</span>
+		</div>
+		<div class="container" style="height: 540px;margin-top: -270px;">
+			<div class="head">
+				<img class="wow zoomIn" src="http://drs.xafc.com:9012/statics/work/banner/img/e_open/icon-text2.png"/>
+				<h2 class="wow fadeInDown" style="color: #000;font-weight: normal;">定制服务</h2>
+			</div>
+			
+			<div class="custom_wrap clearFix">
+				<div class="custom wow fadeInDown" data-wow-offset="60" style="top: 190px;">
+					<img src="http://drs.xafc.com:9012/statics/work/banner/img/e_open/icon-1.png"/>
+					<h2>沟通需求</h2>
+				</div>
+				<img src="http://drs.xafc.com:9012/statics/work/banner/img/e_open/arrow-1.png" class="arrow wow zoomIn" data-wow-delay="0.4s" data-wow-offset="100" style="left: 170px;"/>
+				<div class="custom wow fadeInDown" data-wow-delay="0.6s" data-wow-offset="235" style="top: 10px;">
+					<img src="http://drs.xafc.com:9012/statics/work/banner/img/e_open/icon-2.png"/>
+					<h2>系统定制</h2>
+				</div>
+				<img src="http://drs.xafc.com:9012/statics/work/banner/img/e_open/arrow-2.png" class="arrow wow zoomIn" data-wow-delay="1s" data-wow-offset="100" style="left: 425px;"/>
+				<div class="custom wow fadeInDown" data-wow-delay="1.2s" data-wow-offset="60" style="top: 190px;">
+					<img src="http://drs.xafc.com:9012/statics/work/banner/img/e_open/icon-3.png"/>
+					<h2>号码导入</h2>
+				</div>
+				<img src="http://drs.xafc.com:9012/statics/work/banner/img/e_open/arrow-1.png" class="arrow wow zoomIn" data-wow-delay="1.6s" data-wow-offset="100" style="left: 660px;"/>
+				<div class="custom wow fadeInDown" data-wow-delay="1.8s" data-wow-offset="235" style="top: 10px;">
+					<img src="http://drs.xafc.com:9012/statics/work/banner/img/e_open/icon-4.png"/>
+					<h2>现场彩排</h2>
+				</div>
+				<img src="http://drs.xafc.com:9012/statics/work/banner/img/e_open/arrow-2.png" class="arrow wow zoomIn" data-wow-delay="2.2s" data-wow-offset="100" style="left: 900px;"/>
+				<div class="custom wow fadeInDown" data-wow-delay="2.4s" data-wow-offset="60" style="top: 190px;">
+					<img src="http://drs.xafc.com:9012/statics/work/banner/img/e_open/icon-5.png"/>
+					<h2>现场摇号</h2>
+				</div>
+			</div>
+		</div>
+	</div>
+</main>
+<footer id="footer">
+	<div class="footer-adress">
+		合作电话：400-810-1298 （周一到周五 8：30 - 18：00） Email：<a href="mailto:webmaster@xafc.com" target="_blank" rel="nofollow">webmaster@xafc.com</a><br />
+		Copyright © 2005 - 2018 安徽新安爱房资讯有限公司 All Rights Reserved<br />
+		增值电信业务经营许可证：皖B2-20080039   广播电视节目制作经营许可证：(皖)字第119号
+	</div>
+</footer>
+<script src="http://drs.xafc.com:9012/statics/work/lib/swiper/swiper.min.js"></script>
+<script src="http://drs.xafc.com:9012/statics/work/lib/wow/wow.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(e) {
+		
+		var glob = {};
+		
+		$('#nav_top a').hover(function(){
+			clearInterval(glob.timers);
+			$('#nav_bottom div').eq($(this).index()).show().siblings().hide()
+		},function(){
+			glob.timers = setTimeout(function(){
+				$('#nav_bottom div').eq($('#nav_id').index()).show().siblings().hide()
+			},200)
+		})
+		
+		$('#nav_bottom').hover(function(){
+			clearInterval(glob.timers);
+		},function(){
+			clearInterval(glob.timers);
+			$('#nav_bottom div').eq($('#nav_id').index()).show().siblings().hide();
+		})
+		
+		$('#nav_top a').on('click',function(){
+			$(this).addClass('active').attr('id','nav_id');
+			$(this).siblings().removeClass('active').attr('id','');
+		})
+
+		$('#toTop').on('click',function(){
+			$('body,html').animate({scrollTop: 0}, 200);
+		})
+	    var swiper = new Swiper('.swiper-container', {
+	      	slidesPerView: 3,
+	      	spaceBetween: 80,
+	      	slidesPerGroup: 3,
+	      	loop: true,
+	      	loopFillGroupWithBlank: true,
+	      	navigation: {
+	        	nextEl: '.swiper-button-next',
+	        	prevEl: '.swiper-button-prev',
+	      	}
+	    });
+	    
+	    //不在ie6-9中使用
+	    if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))){
+		    new WOW().init();
+		};
+		
+		//console.log((!(~+[])+{})[--[~+""][+[]]*[~+[]] + ~~!+[]]+({}+[])[[~!+[]]*~+[]]);
+	});
+</script>
+</body>
+</html>
+

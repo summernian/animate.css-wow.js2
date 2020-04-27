@@ -1,0 +1,58 @@
+.xskp-banner-wrapper { width: 100%; height: 400px; }
+.xskp-feature-wrapper { width: 100%; height: 407px; }
+.xskp-prod-intro,.xskp-service-wrapper  {border: 1px solid transparent; position: relative; width: 100%; height: 811px; background: #fff; }
+.xskp-show-wrapper { position: relative; width: 100%; height: 531px; border: 1px solid transparent; background: url('../img/online/bg1.jpg'); }
+.xskp-list-wrapper { width: 100%; height: 519px; border: 1px solid transparent; background: url('../img/online/bg.jpg') no-repeat center; }
+.xskp-list-wrapper .title { display:inline-block; width:50%; text-align: right; position: relative; right: 100px; font-size:36px; font-family: 'Microsoft Yahei'; font-weight: 600; margin-top: 73px; margin-bottom: 85px; }
+.swiper-button-prev, .swiper-button-next { background: none !important; display: inline-block; width: 100px; height: 100px; }
+.slide { width: 334px !important; }
+.xskp-list-wrapper .r-title { text-align: left; left: 100px; }
+.swiper-wrapper-1 { width: 90%; overflow: hidden; margin: 0 auto; }
+
+.xskp-service-wrapper { width: 100%; height: 573px; overflow: hidden; }
+.xskp-img-wrapper { position: relative; display: inline-block; height: 100%; top: 20px; font-size: 18px; font-family: 'Microsoft Yahei'; color: #333333; /* font-weight: bold; */ width: 25%; }
+.xskp-feature-title { position: absolute; left: 0; bottom: 0; }
+.rotate { transform: rotate(30deg); }
+.xskp-feature-img:hover { /* transform: rotate(720deg); */ }
+.xskp-feature-img { position: relative; left: 50px; transform: translateX(-50%); display:inline-block; width:200px; height:250px; transform-origin: 100px 125px; transform: rotate(0deg); transition: -webkit-transform 1s; }
+.xskp-img-wrapper:nth-of-type(1) .xskp-feature-img {left: 10px;}
+.xskp-img-wrapper:nth-of-type(2) .xskp-feature-img{left: 10px;}
+.xskp-img-wrapper:nth-of-type(3) .xskp-feature-img{left: 35px;}
+.xskp-img-wrapper:nth-of-type(4) .xskp-feature-img{left: 30px;}
+.xskp-feature-title { width: 100%; white-space: pre-wrap; text-align: center; }
+.xskp-title { text-align: center; font-size: 36px; font-family: Microsoft Yahei; position: relative; margin-top: 72px; }
+.xskp-line { background: url('../img/online/line.png') no-repeat center; height: 20px; }
+.xskp-line-white { background: url('../img/online/line-white.png') no-repeat center; height: 20px; }
+.xskp-prod-btn-area { text-align: center; }
+.xskp-tb-btn { cursor: pointer; display: inline-block; width: 116px; height: 38px; margin-right: 20px; border-radius: 20px; border: 1px solid #dcdcdc; line-height: 38px; font-size: 18px; color: #666666; font-family: Microsoft Yahei; margin-top: 31px; font-weight: 600; }
+.xksp-prod-content { position: absolute; bottom: 0; background: #fff; left: 0; right: 0; top: 250px; }
+.xksp-prod-content .side { position: relative; display: inline-block; float: left; width: 180px; margin-left: 0%; height: 100%; background: #fff; top: 58px; }
+.xksp-prod-content .side-wrapper {  }
+.xksp-prod-content .img-content { display: inline-block; width: 676px; height: 450px; background: yellow; background-size: contain; position: absolute; margin: auto; top: -109px; bottom: 0; margin-left: 6.6%; }
+.xksp-prod-content .title { font-size: 24px; font-family: 'Microsoft Yahei'; font-weight: 600; }
+.xksp-prod-content .content { display: inline-block; font-size: 16px; width: 222px; font-family: 'Microsoft Yahei'; color: #666666; }
+.xksp-prod-content .line { margin-top: 10px; margin-bottom: 10px; margin-left: 2px; width: 50px; border: 2px solid #ffb20c; }
+.xskp-service-wrapper>.img { background:url('../img/online/service-img.png') no-repeat center; height:400px; }
+html,body { margin: 0; padding: 0; border: 1px solid transparent; }
+.service-img { display:inline-block; width:192px; height:204px; position: relative; }
+.wrapper { display:inline-block; position:relative; left:26px; text-align: center; height: 49px; width: 240px; line-height: 49px; font-size: 24px; font-family: 'Microsoft Yahei'; font-weight: 200; margin-bottom: 24px; background-image: linear-gradient(to bottom, #fafafa, #ffefcc); z-index: 1; }
+.xskp-show-wrapper .btn { background: rgba(0,0,0,.5) !important; width: 33px; }
+.close { position:absolute; top:100px; margin-left: 5px; background: grey;color: #fff; border-radius: 12px; line-height: 20px; text-align: center; height: 20px; width: 20px; font-size: 12px; padding: 1px; top: 5px; position: absolute; }
+.close::before { content: "\2716"; position: absolute; top: 0; left: 6px; }
+.left { display:inline-block; width:35px; height:35px; /* background-color:red; */ position:absolute; top:8px; left:9px; transform:rotate(45deg); border:none;background-image: linear-gradient(116deg, #fafafa, #ffefcc); }
+.right { display:inline-block; width:35px; height:35px; background-color:red; position:relative; top:8px; right:-9px; transform:rotate(45deg); z-index:0; background-image: linear-gradient(116deg, #fafafa, #ffefcc); }
+.tb-active { background:#e86527; color: #fff; border: none; }
+.box { display: inline-block; width: 200px; height: 379px; /* border: 1px solid; */ position: absolute; top: 50%; transform: translateY(-50%); background: red; -webkit-transition:-webkit-transform .5s; background-size: contain; }
+.box1 { left: 200px; /* transform: translateY(-50%) rotateY(80deg); */ }
+.box2 { left: 200px; /* transform: translateY(-50%) rotateY(45deg); */ /* -webkit-transition:  -webkit-transform 4s; */ }
+.box3 { left:200px; z-index: 5; }
+.box4 { left: 200px; }
+.rot1 { transform: translateX(-150px) translateY(-200px) rotateY(50deg) translateZ(-258px); }
+.rot2 { transform: translateX(-70px) translateY(-50%) rotateY(45deg) translateZ(-120px); }
+.rot4 { transform: translateX(100px) translateY(-50%) rotateY(-45deg) translateZ(-120px); }
+.rot5 { transform: translateX(150px) translateY(-50%) rotateY(-58deg) translateZ(-258px); }
+.box5 { left: 200px; /* transform: translateY(-50%) rotateY(-80deg); */ }
+.xksp-prod-content .content-wrapper { height:100%; width: 922px; position: relative; margin: 0 auto; }
+.box-wrapper { position: absolute; perspective:250px; width: 500px; -webkit-perspective:250px; -moz-perspective: 250px; perspective-origin: 50% 50%; -moz-perspective-origin: 50% 50%;  margin-left: 156%; height: 379px; top: 29px; }
+.xskp-list-wrapper .desc { position:relative; width: 289px; left:-49px; text-align:right; display: inline-block; font-size:20px; font-family: 'Microsoft Yahei'; font-weight: bold; }
+.xskp-list-wrapper .desc-2 { position:relative; width: 359px; color:#fff; display: inline-block; font-size:20px; font-family: 'Microsoft Yahei'; font-weight: bold; vertical-align: top; }
